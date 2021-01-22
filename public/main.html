@@ -11,11 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light row m-0">
-                <div class="col-lg-3 d-flex ps-0 justify-content-start">
+        <header class="bg-white d-flex w-100">
+            <nav class="navbar navbar-expand-xl navbar-light row m-0 w-100">
+                <div class="col-lg-3 d-flex justify-content-end">
                     <a class="navbar-brand" href="#">
-                        <img src="../src/assets/img/Robtec.svg" alt="robtec-logo">
+                        <img src="../src/assets/img/robtec.svg" alt="robtec-logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseContent">
                         <span class="navbar-toggler-icon"></span>
@@ -30,10 +30,25 @@
                         <a href="#" class="nav-link">Fale Conosco</a>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex pe-0 justify-content-end">
+                <div class="col-lg-3 d-flex justify-content-start">
                     <button class="btn btn-outline-primary fira-sans border-radius-0">Solicitar Orçamento</button>
                 </div>
             </nav>
         </header>
+
+        <div class="position-relative">
+            <img src="../src/assets/img/banner.svg" id="banner-img" alt="banner">
+            <div class="row position-absolute w-100" id="banner-text">
+                <div class="col-md-3"></div>
+                <div class="col-md-9 ps-0" id="banner-text-col">
+                    <span class="bold">Fornecemos as<br>Melhores Soluções<br></span>
+                    <button class="btn btn-primary border-radius-0">Nossos Serviços</button>
+                    <button class="btn btn-outline-primary btn-contatos border-radius-0">Contatos</button>
+                </div>
+            </div>
+        </div>
+    
+    
+    <div style="min-height: 1000px;"></div>
     </body>
 </html>

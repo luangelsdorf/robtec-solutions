@@ -1,11 +1,16 @@
-/*-- classes originais --*/
+/*-- tags --*/
+header {
+    height: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
 
-
-body {
+:root {
+    --rob-azul-forte: #014aad;
+    --rob-azul-fraco: #5573fe;
     --texto-45: #454545;
-    --texto-principal: 'Fira Sans', sans-serif;
-    font-family: var(--texto-principal);
-    color: var(--texto-45);
+    --fonte-principal: 'Fira Sans', sans-serif;
 
     --thin:        100;
     --extra-light: 200;
@@ -18,6 +23,15 @@ body {
     --black:       900;
 }
 
+body {
+    font-family: var(--fonte-principal);
+    color: var(--texto-45);
+
+}
+
+
+
+/*-- seletores originais --*/
 .thin        { font-weight: var(--thin) !important; }
 .extra-light { font-weight: var(--extra-light) !important; }
 .light       { font-weight: var(--light) !important; }
@@ -28,14 +42,6 @@ body {
 .extra-bold  { font-weight: var(--extra-bold) !important; }
 .black       { font-weight: var(--black) !important; }
 
-:root {
-    --rob-azul-forte: #014aad;
-    --rob-azul-fraco: #5573fe;
-}
-
-.nunito-sans {
-    font-family: 'Nunito Sans', sans-serif;
-}
 
 .border-radius-0 {
     border-radius: 0 !important;
@@ -51,6 +57,26 @@ body {
 .justify-content-evenly {
     justify-content: space-evenly !important;
 }
+
+#banner-img {
+    width: 100%;
+    min-width: 100%;
+}
+
+#banner-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 72px;
+    color: white;
+    top: 30%;
+    text-shadow: 0 0 40px rgba(0, 0, 0, 0.85);
+}
+
+#banner-text-col {
+    transform: translate(-200px);
+    line-height: 84px;
+}
+
+
 
 /*-- overrides --*/
 .navbar-brand {
@@ -69,22 +95,45 @@ body {
     color: var(--texto-45);
 }
 
-header {
-    height: 120px;
-    position: sticky;
-    top: 0;
+.nav-link {
+    font-weight: var(--medium);
+    font-size: 18px;
 }
 
-.nav-link {
-    font-weight: 500;
+.btn {
+    font-weight: var(--medium);
+    font-size: 18px;
 }
 
 .btn-outline-primary {
     color: var(--rob-azul-forte);
-    border-color: var(--rob-azul-fraco);
+    border: 2px solid var(--rob-azul-fraco);
 }
 
 .btn-outline-primary:hover {
     background-color: var(--rob-azul-fraco);
-    border-color: var(--rob-azul-fraco);
+    border: 2px solid var(--rob-azul-fraco);
+}
+
+.btn-primary {
+    font-family: var(--fonte-principal);
+    color: white;
+    background-color: var(--rob-azul-fraco);
+}
+
+.btn-primary:hover {
+    background-color: var(--rob-azul-forte);
+}
+
+.btn-contatos {
+    font-family: var(--fonte-principal);
+    color: white;
+    background-color: transparent;
+    border: 2px solid var(--rob-azul-fraco);
+}
+
+.btn-contatos:hover {
+    color: var(--rob-azul-forte);
+    background-color: white;
+    border-color: white;
 }
