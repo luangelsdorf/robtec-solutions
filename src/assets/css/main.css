@@ -116,7 +116,7 @@ body {
     padding: 50px 55px;
 }
 
-#sobre-nos-section {
+.section {
     margin-top: 150px;
 }
 
@@ -130,11 +130,11 @@ body {
 }
 
 .bold-60 {
-    font-size: 60px !important;
-    font-weight: var(--bold) !important;
-    font-family: 'Nunito Sans', sans-serif !important;
-    color: var(--rob-azul-forte) !important;
-    margin-bottom: 25px !important;
+    font-size: 60px;
+    font-weight: var(--bold);
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--rob-azul-forte);
+    margin-bottom: 25px;
 }
 
 .medium-17 {
@@ -147,6 +147,11 @@ body {
     font-size: 15px;
     font-weight: var(--light);
     margin: 0;
+}
+
+.purpose-row {
+    padding: 82px 0;
+    background-color: #f7f7f7;
 }
 
 
