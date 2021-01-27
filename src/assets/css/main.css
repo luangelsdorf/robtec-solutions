@@ -88,10 +88,6 @@ body {
     justify-content: space-evenly !important;
 }
 
-#banner-img {
-    width: 100%;
-    min-width: 100%;
-}
 
 #banner-text {
     font-family: 'Nunito Sans', sans-serif;
@@ -224,6 +220,17 @@ body {
     font-weight: var(--medium);
 }
 
+.footer {
+    background-color: #333333;
+    margin-top: 447px;
+}
+
+.footer-text {
+    color: #f7f7f7;
+    font-size: 14px;
+    font-weight: var(--light);
+}
+
 @media (min-width: 1200px) {
     #banner-text-col {
         transform: translate(-200px);
@@ -241,9 +248,12 @@ body {
 }
 
 
-@media (min-width: 992px) {
-    #banner-text-col {
-
+@media (max-width: 992px) {
+    span.bold {
+        font-size: 50px;
+    }
+    #banner-img {
+        max-width: unset;
     }
 }
 

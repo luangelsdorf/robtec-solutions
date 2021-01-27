@@ -23,7 +23,7 @@
                     </button>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
-                    <div class="collapse navbar-collapse navbar-nav w-100 justify-content-evenly flex-direction-row" id="navbarCollapseContent">
+                    <div class="collapse navbar-collapse navbar-nav w-100 justify-content-evenly" id="navbarCollapseContent">
                         <a href="#" class="nav-link">Home</a>
                         <a href="#" class="nav-link">Sobre Nós</a>
                         <a href="#" class="nav-link">Soluções</a>
@@ -53,10 +53,10 @@
             </section>
     
             <section class="section">
-                <div class="row w-100">
-                    <div class="col"></div>
+                <div class="row mx-auto">
+                    <div class="col-1"></div>
             
-                    <div class="col" style="transform: translate(20px)">
+                    <div class="col">
                         <div class="position-relative">
                             <img src="./src/assets/img/Sobre-Nós.svg" id="sobre-nos-img" alt="sobre-nos" width="670" height="500">
                             <div class="position-absolute flex-center" id="quote">
@@ -67,15 +67,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col"></div>
-                    <div class="col col-3">
+                    <div class="col-1"></div>
+                    <div class="col">
                         <p class="spaced-title">SOBRE NÓS</p>
                         <h1 class="bold-60">Conheça <br> a Robtec</h1>
                         <p class="medium-17">Estrategicamente sediada na cidade de Bauru, região central do estado de São Paulo e filiais na cidade de Campinas/SP e São Paulo/SP, atendemos todo o mercado nacional.</p>
                         <p class="light-15">Presente no mercado à quase 30 anos se destacando como um dos maiores integradores de sistemas para radiocomunicação profissional, desenvolvendo e entregando soluções de voz, dados, imagens, segurança eletrônica, infraestrutura e sinalização áudio visual para grandes companhias e governos espalhados por todo o Brasil.</p>
                     </div>
             
-                    <div class="col"></div>
+                    <div class="col-1"></div>
                 </div>
             </section>
     
@@ -165,6 +165,15 @@
                 </div>
             </section>
         </main>
+        
+        <footer class="footer d-flex w-100 justify-content-around py-4">
+            <div class="d-flex align-items-center">
+                <span class="footer-text">Copyright © 2020 – Robtec Solutions</span>
+            </div>
+            <div>
+                <img src="./src/assets/img/linkedin.svg" alt="linkedin-logo">
+            </div>
+        </footer>
 
         <script>
             var collapsed  = false;
@@ -177,7 +186,7 @@
                 collapsed = !collapsed;
     
                 if (collapsed === true) {
-                    document.querySelector('main').style.transform = 'translate(0px, 40px)';
+                    document.querySelector('main').style.transform = 'translate(0px, 200px)';
                 } else {
                     document.querySelector('main').style.transform = '';
                 }
