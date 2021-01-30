@@ -1,0 +1,10 @@
+{
+  "Home": {
+    "id": 0,
+    "icon": "home"
+  },
+  "Animais": {
+    "id": 0,
+    "icon": "paw"
+  }
+}
