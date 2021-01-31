@@ -1,5 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from 'components/Header';
+import Banner from 'components/Banner';
+import SobreNos from 'components/SobreNos';
+import Proposito from 'components/Proposito';
+import FormMap from 'components/FormMap';
+import Footer from 'components/Footer';
 
 function App() {
   React.useEffect(() => {
@@ -9,7 +14,16 @@ function App() {
   }, [])
 
   return (
-    <Header />
+    <div>
+      <Header />
+      <main>
+          <Banner />
+          <SobreNos />
+          <Proposito />
+          <FormMap />
+      </main>
+      <Footer />
+    </div>
   );
 }
 

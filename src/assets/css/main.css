@@ -123,6 +123,11 @@ body {
     padding: 50px 55px;
 }
 
+#purpose-row {
+    background-color: #f7f7f7;
+    padding: 82px 0;
+}
+
 #form-col {
     padding: 45px 100px;
     background-color: #f7f7f7;
