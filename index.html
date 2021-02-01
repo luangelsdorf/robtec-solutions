@@ -51,11 +51,11 @@
                     </div>
                 </div>
             </section>
-    
+
             <section class="section">
                 <div class="row">
                     <div class="col"></div>
-            
+
                     <div class="col-10 row">
                         <div class="col-7">
                             <div class="position-relative">
@@ -78,15 +78,15 @@
                             </div>
                         </div>
                     </div>
-            
+
                     <div class="col"></div>
                 </div>
             </section>
-    
+
             <section class="section">
                 <div class="row mx-auto">
                     <div class="col"></div>
-            
+
                     <div class="col-10 row justify-content-around" id="purpose-row">
                         <div class="col-3 d-flex align-items-center">
                             <div>
@@ -105,15 +105,15 @@
                             </div>
                         </div>
                     </div>
-            
+
                     <div class="col"></div>
                 </div>
             </section>
-    
+
             <section class="section position-relative">
                 <div class="row mx-auto">
                     <div class="col"></div>
-            
+
                     <div class="col-10 row">
                         <div class="col-4 flex-center color-white" id="contatos-col">
                             <div>
@@ -126,7 +126,7 @@
                                 <p class="light-15"><span class="medium-15">São Paulo:</span> &nbsp;(11) 4259.1626</p>
                             </div>
                         </div>
-                
+
                         <div class="col-8 row" id="form-col">
                             <form class="row">
                                 <div class="col-7 form-floating">
@@ -156,20 +156,20 @@
                                     <input type="checkbox" id="termos" placeholder="E-mail" class="form-check-input me-2" value="">
                                     <label class="form-check-label pt-1" for="termos">Aceitar Termos de Privacidade</label>
                                 </div>
-                    
+
                             </form>
                         </div>
                     </div>
-            
+
                     <div class="col"></div>
                 </div>
-        
+
                 <div id="frame-wrapper" class="embed-responsive position-absolute w-100">
                     <iframe id="frame" class="embed-responsive-item" src="https://www.google.com/maps/d/embed?mid=1P6p8P4ihRMHla8ROn2b-WNzaq9Q3fC5g&ll=-22.910349068933336%2C-48.01309710295611&z=7" width="100%" height="650"></iframe>
                 </div>
             </section>
         </main>
-        
+
         <footer class="footer d-flex w-100 justify-content-around py-4">
             <div class="d-flex align-items-center">
                 <span class="footer-text">Copyright © 2020 – Robtec Solutions</span>
@@ -178,5 +178,24 @@
                 <img src="./src/assets/img/linkedin.svg" alt="linkedin-logo">
             </div>
         </footer>
+
+        <script>
+            var collapsed  = false;
+
+            document.getElementById('toggler-button').addEventListener('click', () => {
+                handleClick()
+            })
+
+            function handleClick() {
+                collapsed = !collapsed;
+
+                if (collapsed === true) {
+                    document.querySelector('main').style.transform = 'translate(0px, 200px)';
+                } else {
+                    document.querySelector('main').style.transform = '';
+                }
+            }
+        </script>
+
     </body>
 </html>

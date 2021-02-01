@@ -98,28 +98,29 @@ body {
 }
 
 #banner-text-col {
-    line-height: 84px;;
+    line-height: 84px;
 }
 
 #sobre-nos-img {
     z-index: -2;
+    width: 100%;
+    height: auto;
 }
 
 #aspas {
-    left: 132px;
-    top: 305px;
     z-index: 1;
 }
 
 #quote {
+    line-height: 35px;
     width: 400px;
     height: 250px;
     background-color: var(--rob-azul-forte);
     color: white;
     font-size: 20px;
     z-index: 1;
-    top: 315px;
-    left: 200px;
+    bottom: -12%;
+    right: 10%;
     padding: 50px 55px;
 }
 
@@ -139,7 +140,7 @@ body {
 
 #frame-wrapper {
     overflow: hidden;
-    top: 200px;
+    top: -200px;
     z-index: -1;
 }
 
@@ -236,12 +237,7 @@ body {
     font-weight: var(--light);
 }
 
-@media (min-width: 1200px) {
-    #banner-text-col {
-        transform: translate(-200px);
-    }
-}
-
+/*-- media queries --*/
 @media (max-width: 1200px) {
     #banner-text-col {
         transform: translate(12px);
@@ -252,13 +248,46 @@ body {
     }
 }
 
-
 @media (max-width: 992px) {
     span.bold {
         font-size: 50px;
     }
     #banner-img {
         max-width: unset;
+    }
+}
+
+
+@media (min-width: 576px)  { /*  sm  */
+
+}
+
+@media (min-width: 768px)  { /*  md */
+
+}
+
+@media (min-width: 992px)  { /*  lg  */
+    #aspas {
+        bottom: 14%;
+        right: 49%;
+    }
+}
+
+@media (min-width: 1200px) { /*  xl  */
+    #banner-text-col {
+        transform: translate(-200px);
+    }
+
+    #aspas {
+        bottom: 25%;
+        right: 67.5%;
+    }
+}
+
+@media (min-width: 1400px) { /*  xxl  */
+    #aspas {
+        bottom: 20%;
+        right: 59.5%;
     }
 }
 
