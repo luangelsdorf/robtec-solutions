@@ -21,9 +21,7 @@ function App() {
             </div>
 
             <div id="main">
-                <div className="container-fluid">
-                    <Banner />
-                </div>
+                <Banner />
 
                 <main className="container">
                     <SobreNos />
