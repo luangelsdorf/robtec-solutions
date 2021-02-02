@@ -20,12 +20,12 @@ export default function () {
             </div>
 
             <div className="col-8 row" id="form-col">
-                <form className="row">
-                    <div className="col-7 form-floating">
+                <form className="row g-4 mt-0">
+                    <div className="col-7 form-floating mt-0">
                         <input type="text" id="nome-e-sobrenome" placeholder="Nome e Sobrenome" className="form-control" />
                         <label className="placeholder-text" htmlFor="nome-e-sobrenome">Nome e Sobrenome</label>
                     </div>
-                    <div className="col-5 form-floating">
+                    <div className="col-5 form-floating mt-0">
                         <input type="text" id="empresa" placeholder="Empresa" className="form-control" />
                         <label className="placeholder-text" htmlFor="empresa">Empresa</label>
                     </div>
@@ -41,12 +41,12 @@ export default function () {
                         <textarea id="desc" placeholder="Descrição da Demanda" className="form-control" />
                         <label className="placeholder-text" htmlFor="desc">Descrição da Demanda</label>
                     </div>
-                    <div className="col-5 d-flex align-items-center">
-                        <button className="btn btn-outline-primary fira-sans border-radius-0">
+                    <div className="col-6 d-flex align-items-center">
+                        <button id="enviar" className="btn btn-outline-primary fira-sans border-radius-0 w-100">
                             Enviar Solicitação
                         </button>
                     </div>
-                    <div className="col-7 d-flex align-items-center form-check">
+                    <div id="termos-col" className="col-5 d-flex align-items-center form-check">
                         <input type="checkbox" id="termos" placeholder="E-mail" className="form-check-input me-2" value="" />
                         <label className="form-check-label pt-1" htmlFor="termos">Aceitar Termos de Privacidade</label>
                     </div>

@@ -25,7 +25,7 @@ export default function () {
                     </div>
                 </div>
                 <div className="d-none d-xl-block">
-                    <button className="btn btn-outline-primary fira-sans border-radius-0">
+                    <button className="btn rob-btn btn-outline-primary fira-sans border-radius-0">
                         Solicitar Orçamento
                     </button>
                 </div>

@@ -88,6 +88,10 @@ body {
     justify-content: space-evenly !important;
 }
 
+.rob-btn {
+    padding: 15px 20px;
+}
+
 #main {
     transition: all 500ms;
 }
@@ -158,9 +162,17 @@ body {
     height: 100px;
 }
 
+#enviar {
+    padding: 15px 45px;
+}
+
+#termos-col {
+    margin-left: 9px;
+}
+
 #frame-wrapper {
     overflow: hidden;
-    top: -200px;
+    top: -220px;
     z-index: -1;
 }
 
@@ -173,7 +185,7 @@ body {
     color: #6e6e6e;
     font-size: 14px;
     font-weight: var(--light);
-    padding: 15px 20px !important;
+    padding: 18px 20px !important;
 }
 
 .form-check-label {
@@ -248,7 +260,7 @@ body {
 
 .footer {
     background-color: #333333;
-    margin-top: 447px;
+    margin-top: 437px;
 }
 
 .footer-text {
