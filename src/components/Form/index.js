@@ -8,7 +8,7 @@ export default function () {
                     <p className="spaced-title color-white">FALE CONOSCO</p>
                     <h1 className="bold-60 color-white">Contatos</h1>
                     <p className="light-15" style={{marginBottom: 1 + 'rem'}}>Solicite um orçamento pelo nosso
-                        formulário, ou se preferir entre em contato através do canais abaixo:</p>
+                        formulário, ou se preferir entre em <br /> contato através do canais abaixo:</p>
                     <p className="medium-15">vendas@robtecsolutions.com.br</p>
                     <p className="light-15"><span className="medium-15">Bauru:</span>     &nbsp;(14) 3203.3655
                     </p>

@@ -16,17 +16,27 @@ function App() {
 
     return (
         <div>
-            <Header />
-            <Banner />
-            <main className="container">
-                <SobreNos />
-                <Proposito />
-                <Form />
-            </main>
-            <div className="position-relative">
-                <Mapa />
+            <div className="container">
+                <Header />
             </div>
-            <Footer />
+
+            <div id="main">
+                <div className="container-fluid">
+                    <Banner />
+                </div>
+
+                <main className="container">
+                    <SobreNos />
+                    <Proposito />
+                    <Form />
+                </main>
+
+                <div className="position-relative">
+                    <Mapa />
+                </div>
+
+                <Footer />
+            </div>
         </div>
     );
 }

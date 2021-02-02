@@ -88,6 +88,10 @@ body {
     justify-content: space-evenly !important;
 }
 
+#main {
+    transition: all 500ms;
+}
+
 
 #banner-text {
     font-family: 'Nunito Sans', sans-serif;
