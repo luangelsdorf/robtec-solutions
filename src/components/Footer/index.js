@@ -1,7 +1,7 @@
 import React from "react";
 import linkedin from 'assets/img/linkedin.svg';
 
-export default function () {
+export default function Footer() {
     return (
         <footer className="footer w-100 py-4">
             <div className="container d-flex justify-content-between">

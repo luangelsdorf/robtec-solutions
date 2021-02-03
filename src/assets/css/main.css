@@ -248,6 +248,33 @@ body {
     color: white !important;
 }
 
+#nossas {
+    margin-bottom: 52px;
+}
+
+.first-product-container {
+    top: 50%;
+    margin-top: -31px;
+}
+
+.product-container {
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: var(--medium);
+}
+
+.saiba-mais {
+    font-size: 12px;
+    color: var(--rob-azul-fraco);
+}
+
 #contatos-col {
     background-color: var(--rob-azul-forte);
     padding: 48px 75px 48px 75px;

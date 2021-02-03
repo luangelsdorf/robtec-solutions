@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function () {
+export default function Mapa() {
     return (
         <div id="frame-wrapper" className="embed-responsive position-absolute w-100">
             <iframe id="frame" className="embed-responsive-item"

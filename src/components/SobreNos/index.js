@@ -2,7 +2,7 @@ import React from "react";
 import sobreNos from 'assets/img/Sobre-Nós.svg';
 import aspas from 'assets/img/aspas.svg';
 
-export default function () {
+export default function SobreNos() {
     return (
         <div className="row section">
             <div className="col-xl-7">

@@ -1,7 +1,7 @@
 import React from 'react';
 import bannerImg from 'assets/img/banner.svg'
 
-export default function () {
+export default function Banner() {
     return (
         <div className="container-fluid p-0 position-relative">
             <img src={bannerImg} id="banner-img" alt="banner" />

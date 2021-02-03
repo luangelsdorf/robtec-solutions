@@ -3,6 +3,7 @@ import Header from 'components/Header';
 import Banner from 'components/Banner';
 import SobreNos from 'components/SobreNos';
 import Proposito from 'components/Proposito';
+import Produtos from 'components/Produtos';
 import Form from 'components/Form';
 import Mapa from 'components/Mapa';
 import Footer from 'components/Footer';
@@ -26,6 +27,7 @@ function App() {
                 <main className="container">
                     <SobreNos />
                     <Proposito />
+                    <Produtos />
                     <Form />
                 </main>
 

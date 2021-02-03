@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function () {
+export default function Form() {
     return (
         <div className="row section position-relative">
             <div className="col-4 flex-center color-white" id="contatos-col">

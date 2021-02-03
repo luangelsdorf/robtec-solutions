@@ -1,7 +1,7 @@
 import React from "react";
 import logo from 'assets/img/robtec.svg';
 
-export default function () {
+export default function Header() {
     return (
         <header className="bg-white d-flex w-100">
             <nav className="navbar navbar-expand-xl navbar-light d-flex m-0 w-100">
