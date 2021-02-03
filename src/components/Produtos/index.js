@@ -8,7 +8,7 @@ export default function Produtos() {
     let produtos = prod.produtos
 
     return (
-        <div className="row gy-5 section">
+        <div className="row section gy-5">
             <HeaderProduto />
             <BannerProduto />
             {

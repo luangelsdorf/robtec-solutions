@@ -88,6 +88,16 @@ body {
     justify-content: space-evenly !important;
 }
 
+#detalhe-1 {
+    top: 684px;
+    left: -129px;
+}
+
+#detalhe-2 {
+    top: 1920px;
+    right: -200px;
+}
+
 .rob-btn {
     padding: 15px 20px;
 }

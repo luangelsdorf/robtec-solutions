@@ -51,11 +51,27 @@
             collapsed = !collapsed;
 
             if (collapsed === true) {
-                document.querySelector('#main').style.transform = 'translate(0px, 200px)';
+                document.querySelector('#mainContent').style.transform = 'translate(0px, 200px)';
             } else {
-                document.querySelector('#main').style.transform = '';
+                document.querySelector('#mainContent').style.transform = '';
             }
         }
+
+        /*document.body.style.overflowX = 'hidden';
+
+        const d1 = document.createElement('img')
+        d1.src = '/static/media/detalhe-1.4fe5eac3.svg'
+        d1.className = 'position-absolute'
+        d1.style.zIndex = '1'
+        d1.id = 'detalhe-1'
+        document.body.prepend(d1)
+
+        const d2 = document.createElement('img')
+        d2.src = '/static/media/detalhe-2.bcbba062.svg'
+        d2.className = 'position-absolute'
+        d2.style.zIndex = '1'
+        d2.id = 'detalhe-2'
+        document.body.prepend(d2)*/
     })
 </script>
 </body>

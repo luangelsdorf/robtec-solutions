@@ -1,11 +1,6 @@
 import React from 'react';
 import Header from 'components/Header';
-import Banner from 'components/Banner';
-import SobreNos from 'components/SobreNos';
-import Proposito from 'components/Proposito';
-import Produtos from 'components/Produtos';
-import Form from 'components/Form';
-import Mapa from 'components/Mapa';
+import Main from 'components/Main';
 import Footer from 'components/Footer';
 
 function App() {
@@ -16,27 +11,12 @@ function App() {
     }, [])
 
     return (
-        <div>
-            <div className="container">
-                <Header />
-            </div>
+        <div className="container-fluid p-0">
+            <Header />
 
-            <div id="main">
-                <Banner />
+            <Main />
 
-                <main className="container">
-                    <SobreNos />
-                    <Proposito />
-                    <Produtos />
-                    <Form />
-                </main>
-
-                <div className="position-relative">
-                    <Mapa />
-                </div>
-
-                <Footer />
-            </div>
+            <Footer />
         </div>
     );
 }

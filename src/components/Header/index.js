@@ -3,7 +3,7 @@ import logo from 'assets/img/robtec.svg';
 
 export default function Header() {
     return (
-        <header className="bg-white d-flex w-100">
+        <header className="container bg-white d-flex w-100">
             <nav className="navbar navbar-expand-xl navbar-light d-flex m-0 w-100">
                 <div className="d-flex d-xl-block justify-content-between">
                     <a className="navbar-brand" href="#">
