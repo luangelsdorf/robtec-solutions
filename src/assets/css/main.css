@@ -1,9 +1,7 @@
 /*-- tags --*/
 header {
     height: 120px;
-    /*
     position: sticky;
-    */
     top: 0;
     z-index: 2;
 }

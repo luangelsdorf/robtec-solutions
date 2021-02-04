@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function Proposito() {
-    return (
-        <div className="row section justify-content-around" id="purpose-row">
+    return ([
+        <div className="row section justify-content-around" id="purpose-row" key="asd">
 
             <div className="col-auto d-flex align-items-center">
                 <div>
@@ -25,6 +25,7 @@ export default function Proposito() {
                 </div>
             </div>
 
-        </div>
-    )
+        </div>,
+        <div id="solutions" key="asd" />
+    ])
 }

@@ -7,8 +7,8 @@ import prod from 'data/produtos.json';
 export default function Produtos() {
     let produtos = prod.produtos
 
-    return (
-        <div className="row section gy-5">
+    return ([
+        <div className="row section gy-5" key="asd">
             <HeaderProduto />
             <BannerProduto />
             {
@@ -16,6 +16,7 @@ export default function Produtos() {
                     return <CardProduto imgSrc={m.name} displayText={m.displayText} />
                 })
             }
-        </div>
-    )
+        </div>,
+        <div id="faleConosco" key="asd" />
+    ])
 }
