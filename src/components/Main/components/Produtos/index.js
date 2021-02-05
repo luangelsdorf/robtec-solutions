@@ -13,10 +13,10 @@ export default function Produtos() {
             <BannerProduto />
             {
                 produtos.map(m => {
-                    return <CardProduto imgSrc={m.name} displayText={m.displayText} />
+                    return <CardProduto key={`card-${produtos.indexOf(m)}`} imgSrc={m.name} displayText={m.displayText} />
                 })
             }
         </div>,
-        <div id="faleConosco" key="asd" />
+        <div id="faleConosco" key="dsa" />
     ])
 }

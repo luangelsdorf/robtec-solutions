@@ -26,6 +26,6 @@ export default function Proposito() {
             </div>
 
         </div>,
-        <div id="solutions" key="asd" />
+        <div id="solutions" key="dsa" />
     ])
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import SobreNos from "../SobreNos";
-import Proposito from "../Proposito";
-import Produtos from "../Produtos";
-import Form from "../Form";
-import Banner from "../Banner";
-import Mapa from "../Mapa";
+import SobreNos from "./components/SobreNos";
+import Proposito from "./components/Proposito";
+import Produtos from "./components/Produtos";
+import Form from "./components/Form";
+import Banner from "./components/Banner";
+import Mapa from "./components/Mapa";
 
 export default function Main() {
     return (

@@ -13,9 +13,7 @@ function App() {
     return (
         <div className="container-fluid p-0">
             <Header />
-
             <Main />
-
             <Footer />
         </div>
     );

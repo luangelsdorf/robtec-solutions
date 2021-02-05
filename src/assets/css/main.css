@@ -1,9 +1,6 @@
 /*-- tags --*/
-header {
-    height: 120px;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+nav {
+    box-shadow: 0 2px 5px 3px rgba(64, 60, 67, 0.16);
 }
 
 main {
@@ -81,7 +78,6 @@ body {
     box-shadow: 0 0 0 0.25rem var(--rob-azul-fraco);
 }
 
-
 .justify-content-evenly {
     justify-content: space-evenly !important;
 }
@@ -94,6 +90,10 @@ body {
 #detalhe-2 {
     top: 1920px;
     right: -200px;
+}
+
+#btn-container {
+    min-width: 207px;
 }
 
 .rob-btn {
@@ -355,13 +355,6 @@ body {
 
 
 /*-- overrides --*/
-.navbar-brand {
-    margin-right: 0;
-}
-
-.navbar-collapse {
-    width: unset;
-}
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--texto-45);
@@ -369,6 +362,14 @@ body {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--texto-45);
+}
+
+.navbar-nav.w-100 {
+    width: 81% !important;
+}
+
+.navbar-brand {
+    margin-right: 0;
 }
 
 .nav-link {

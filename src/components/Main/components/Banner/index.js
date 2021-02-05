@@ -13,6 +13,6 @@ export default function Banner() {
                 </div>
             </section>
         </div>,
-        <div id="sobreNos" key="asd" />
+        <div id="sobreNos" key="dsa" />
     ])
 }
