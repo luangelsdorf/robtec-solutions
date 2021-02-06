@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Form() {
     return (
-        <div className="row section position-relative">
-            <div className="col-4 flex-center color-white" id="contatos-col">
+        <div className="row section position-relative" id="form">
+            <div className="col-12 col-lg-4 flex-center color-white" id="contatos-col">
                 <div>
                     <p className="spaced-title color-white">FALE CONOSCO</p>
                     <h1 className="bold-60 color-white">Contatos</h1>
@@ -19,7 +19,7 @@ export default function Form() {
                 </div>
             </div>
 
-            <div className="col-8 row" id="form-col">
+            <div className="col-12 col-lg-8 flex-center py-4 py-xl-0" id="form-col">
                 <form className="row g-4 mt-0">
                     <div className="col-7 form-floating mt-0">
                         <input type="text" id="nome-e-sobrenome" placeholder="Nome e Sobrenome" className="form-control" />
