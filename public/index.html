@@ -55,6 +55,32 @@
         d2.style.zIndex = '1'
         d2.id = 'detalhe-2'
         document.body.prepend(d2)*/
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.produto').forEach(m => {
+                m.addEventListener('mouseenter', e => {
+                    e.target.children[0].children[1].style.background = 'transparent';
+                    e.target.children[0].children[2].children[1].children[0].style.opacity = '1';
+                    e.target.children[0].children[2].children[1].children[0].style.transform = 'translateX(0px)';
+                })
+                m.addEventListener('mouseleave', e => {
+                    e.target.children[0].children[1].style.background = '';
+                    e.target.children[0].children[2].children[1].children[0].style.opacity = '0';
+                    e.target.children[0].children[2].children[1].children[0].style.transform = 'translateX(-10px)';
+                })
+            })
+
+            document.querySelector('.banner-produto').addEventListener('mouseenter', e => {
+                e.target.children[0].children[0].children[1].style.background = 'transparent';
+                e.target.children[1].children[0].children[2].children[0].style.opacity = '1';
+                e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(0px)';
+            })
+            document.querySelector('.banner-produto').addEventListener('mouseleave', e => {
+                e.target.children[0].children[0].children[1].style.background = '';
+                e.target.children[1].children[0].children[2].children[0].style.opacity = '0';
+                e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(-10px)';
+            })
+        })
 </script>
 </body>
 </html>

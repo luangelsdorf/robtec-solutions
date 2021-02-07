@@ -108,7 +108,7 @@ body {
     width: 100%;
     height: 780px;
     object-fit: cover;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 #banner-text {
@@ -129,7 +129,7 @@ body {
     width: 100%;
 }
 
-#banner-text-col {
+#banner-text {
     line-height: 84px;
 }
 
@@ -158,7 +158,7 @@ body {
 
 #purpose-row {
     background-color: #f7f7f7;
-    padding: 82px 0;
+    padding: 85px 20px 55px 20px;
 }
 
 #form-col {
@@ -170,19 +170,20 @@ body {
 }
 
 #enviar {
-    padding: 15px 45px;
+    font-size: 16px !important;
+    width: 220px;
+    margin-right: 25px;
 }
 
 #termos-col {
     margin-left: 9px;
 }
 
-
 .placeholder-text {
     color: #6e6e6e;
     font-size: 14px;
     font-weight: var(--light);
-    padding: 18px 20px !important;
+    padding: 18px 35px !important;
 }
 
 .form-check-label {
@@ -217,6 +218,7 @@ body {
 }
 
 .bold-60 {
+    line-height: 60px;
     font-size: 60px;
     font-weight: var(--bold);
     font-family: 'Nunito Sans', sans-serif;
@@ -225,12 +227,14 @@ body {
 }
 
 .medium-17 {
+    line-height: 27px;
     font-size: 17px;
     font-weight: var(--medium);
     margin-bottom: 37px;
 }
 
 .light-15 {
+    line-height: 25px;
     font-size: 15px;
     font-weight: var(--light);
     margin: 0;
@@ -249,6 +253,31 @@ body {
     margin-bottom: 52px;
 }
 
+.overlay {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.1);
+    transition: all 250ms;
+}
+
+.produto {
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.banner-produto {
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.flecha {
+    opacity: 0;
+    display: inline-block;
+    transform: translateX(-10px);
+    transition: all 350ms;
+}
+
 .first-product-container {
     top: 50%;
     margin-top: -31px;
@@ -263,11 +292,13 @@ body {
 }
 
 .product-title {
+    line-height: 27px;
     font-size: 20px;
     font-weight: var(--medium);
 }
 
 .saiba-mais {
+    line-height: 24px;
     font-size: 12px;
     color: var(--rob-azul-fraco);
 }

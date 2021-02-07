@@ -41,12 +41,10 @@ export default function Form() {
                         <textarea id="desc" placeholder="Descrição da Demanda" className="form-control" />
                         <label className="placeholder-text" htmlFor="desc">Descrição da Demanda</label>
                     </div>
-                    <div className="col-6 d-flex align-items-center">
-                        <button id="enviar" className="btn btn-outline-primary fira-sans border-radius-0 w-100">
+                    <div className="col-12 d-flex align-items-center">
+                        <button id="enviar" className="btn rob-btn btn-outline-primary fira-sans border-radius-0">
                             Enviar Solicitação
                         </button>
-                    </div>
-                    <div id="termos-col" className="col-5 d-flex align-items-center form-check">
                         <input type="checkbox" id="termos" placeholder="E-mail" className="form-check-input me-2" value="" />
                         <label className="form-check-label pt-1" htmlFor="termos">Aceitar Termos de Privacidade</label>
                     </div>

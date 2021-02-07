@@ -30,7 +30,7 @@ export default function Header() {
         <header>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-white">
                 <div className="container">
-                    <a className="navbar-brand" href="#"><img src={logo} alt="robtec-logo" /></a>
+                    <img src={logo} alt="robtec-logo" />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
                         <span className="navbar-toggler-icon" />
                     </button>
