@@ -415,6 +415,10 @@ body {
 
 /*-- overrides --*/
 
+.form-floating > .form-control, .form-floating > .form-select {
+    padding: 1rem 20px;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: var(--texto-45);
 }

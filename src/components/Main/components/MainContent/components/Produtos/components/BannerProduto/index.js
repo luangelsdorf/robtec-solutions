@@ -7,7 +7,6 @@ export default function BannerProduto() {
             <div className="col-12 col-sm-6 col-md-4 col-lg-8 d-flex" key="asd">
                 <div className="position-relative w-100">
                     <img src={img} className="img-fluid w-100" alt="cameras-de-vigilancia" />
-                    <div className="position-absolute overlay" />
                     <div className="position-absolute bg-white text-center first-product-container p-3">
                         <span className="product-title d-block">Câmeras de Vigilância</span>
                     </div>

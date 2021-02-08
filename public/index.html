@@ -71,12 +71,10 @@
             })
 
             document.querySelector('.banner-produto').addEventListener('mouseenter', e => {
-                e.target.children[0].children[0].children[1].style.background = 'transparent';
                 e.target.children[1].children[0].children[2].children[0].style.opacity = '1';
                 e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(0px)';
             })
             document.querySelector('.banner-produto').addEventListener('mouseleave', e => {
-                e.target.children[0].children[0].children[1].style.background = '';
                 e.target.children[1].children[0].children[2].children[0].style.opacity = '0';
                 e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(-10px)';
             })
