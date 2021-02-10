@@ -3,7 +3,7 @@ import React from "react";
 export default function Form() {
     return (
         <div className="row section position-relative" id="form">
-            <div className="col-12 col-lg-4 flex-center color-white" id="contatos-col">
+            <div className="col-12 col-lg-4 flex-center color-white" id="fale-conosco">
                 <div>
                     <p className="spaced-title color-white">FALE CONOSCO</p>
                     <h1 className="bold-60 color-white">Contatos</h1>

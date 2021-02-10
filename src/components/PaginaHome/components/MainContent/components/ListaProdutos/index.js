@@ -1,22 +1,21 @@
 import React from "react";
 import HeaderProduto from './components/HeaderProduto';
-import BannerProduto from './components/BannerProduto';
+import DestaqueProduto from './components/DestaqueProduto';
 import CardProduto from './components/CardProduto';
-import prod from 'data/produtos.json';
+import prod from 'data/data.json';
 
 export default function Produtos() {
-    let produtos = prod.produtos
+    let produtos = prod.home.produtos
 
-    return ([
-        <div className="row section gy-5" key="asd">
+    return (
+        <div className="row section gy-5">
             <HeaderProduto />
-            <BannerProduto />
+            <DestaqueProduto />
             {
-                produtos.map(m => {
+                /*produtos.map(m => {
                     return <CardProduto key={`card-${produtos.indexOf(m)}`} imgSrc={m.name} displayText={m.displayText} />
-                })
+                })*/
             }
-        </div>,
-        <div id="faleConosco" key="dsa" />
-    ])
+        </div>
+    )
 }

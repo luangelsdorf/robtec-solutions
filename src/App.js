@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from 'components/Header';
-import Main from 'components/Main';
+import PaginaHome from 'components/PaginaHome';
+import PaginaProduto from "./components/PaginaProduto";
 import Footer from 'components/Footer';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     return (
         <div className="container-fluid p-0">
             <Header />
-            <Main />
+            <PaginaProduto />
             <Footer />
         </div>
     );
