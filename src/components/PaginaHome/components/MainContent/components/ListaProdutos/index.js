@@ -12,9 +12,9 @@ export default function Produtos() {
             <HeaderProduto />
             <DestaqueProduto />
             {
-                /*produtos.map(m => {
+                produtos.map(m => {
                     return <CardProduto key={`card-${produtos.indexOf(m)}`} imgSrc={m.name} displayText={m.displayText} />
-                })*/
+                })
             }
         </div>
     )
