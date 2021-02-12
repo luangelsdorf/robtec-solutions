@@ -39,46 +39,51 @@
   To create a production bundle, use `npm run build` or `yarn build`.
 -->
 <script>
-
-        /*document.body.style.overflowX = 'hidden';
-
-        const d1 = document.createElement('img')
-        d1.src = '/static/media/detalhe-1.4fe5eac3.svg'
-        d1.className = 'position-absolute'
-        d1.style.zIndex = '1'
-        d1.id = 'detalhe-1'
-        document.body.prepend(d1)
-
-        const d2 = document.createElement('img')
-        d2.src = '/static/media/detalhe-2.bcbba062.svg'
-        d2.className = 'position-absolute'
-        d2.style.zIndex = '1'
-        d2.id = 'detalhe-2'
-        document.body.prepend(d2)*/
-
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelectorAll('.produto').forEach(m => {
-                m.addEventListener('mouseenter', e => {
-                    e.target.children[0].children[1].style.background = 'transparent';
-                    e.target.children[0].children[2].children[1].children[0].style.opacity = '1';
-                    e.target.children[0].children[2].children[1].children[0].style.transform = 'translateX(0px)';
-                })
-                m.addEventListener('mouseleave', e => {
-                    e.target.children[0].children[1].style.background = '';
-                    e.target.children[0].children[2].children[1].children[0].style.opacity = '0';
-                    e.target.children[0].children[2].children[1].children[0].style.transform = 'translateX(-10px)';
-                })
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.produto').forEach(m => {
+            m.addEventListener('mouseenter', e => {
+                e.target.children[0].children[1].style.background = 'transparent';
+                e.target.children[0].children[2].children[1].children[0].style.opacity = '1';
+                e.target.children[0].children[2].children[1].children[0].style.transform = 'translateX(0px)';
             })
-
-            document.querySelector('.banner-produto').addEventListener('mouseenter', e => {
-                e.target.children[1].children[0].children[2].children[0].style.opacity = '1';
-                e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(0px)';
-            })
-            document.querySelector('.banner-produto').addEventListener('mouseleave', e => {
-                e.target.children[1].children[0].children[2].children[0].style.opacity = '0';
-                e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(-10px)';
+            m.addEventListener('mouseleave', e => {
+                e.target.children[0].children[1].style.background = '';
+                e.target.children[0].children[2].children[1].children[0].style.opacity = '0';
+                e.target.children[0].children[2].children[1].children[0].style.transform = 'translateX(-10px)';
             })
         })
+
+        document.querySelector('.banner-produto').addEventListener('mouseenter', e => {
+            e.target.children[1].children[0].children[2].children[0].style.opacity = '1';
+            e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(0px)';
+        })
+        document.querySelector('.banner-produto').addEventListener('mouseleave', e => {
+            e.target.children[1].children[0].children[2].children[0].style.opacity = '0';
+            e.target.children[1].children[0].children[2].children[0].style.transform = 'translateX(-10px)';
+        })
+
+        let options = {
+            rootMargin: '-120px 0px 0px 0px'
+        }
+
+        let observer = new IntersectionObserver(handleIntersection, options)
+        let elements = ['banner', 'sobre-nos', 'solucoes', 'onde-encontrar', 'fale-conosco']
+        elements.forEach(elementId => {
+            observer.observe(document.querySelector(`#${elementId}`))
+        })
+
+        function handleIntersection(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting === true) {
+                    let active = document.querySelector(`a[href="#${entry.target.id}"]`)
+                    document.querySelectorAll('.nav-link').forEach(navLink => {
+                        navLink.classList.remove('active')
+                    })
+                    active.classList.add('active')
+                }
+            })
+        }
+    })
 </script>
 </body>
 </html>

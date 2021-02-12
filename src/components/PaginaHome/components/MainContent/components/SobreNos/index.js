@@ -4,7 +4,7 @@ import aspas from 'assets/img/aspas.svg';
 
 export default function SobreNos() {
     return (
-        <div className="row section">
+        <div className="row section" id="sobre-nos">
             <div className="col-xl-7">
                 <div className="position-relative">
                     <img src={sobreNos} id="sobre-nos-img" alt="sobre-nos" />
