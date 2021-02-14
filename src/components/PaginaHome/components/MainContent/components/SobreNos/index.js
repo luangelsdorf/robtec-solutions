@@ -1,5 +1,5 @@
 import React from "react";
-import sobreNos from 'assets/img/Sobre-Nós.svg';
+import sobreNos from 'assets/img/sobre-nos.png';
 import aspas from 'assets/img/aspas.svg';
 
 export default function SobreNos() {

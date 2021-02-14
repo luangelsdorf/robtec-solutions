@@ -3,6 +3,7 @@ import HeaderProduto from './components/HeaderProduto';
 import DestaqueProduto from './components/DestaqueProduto';
 import CardProduto from './components/CardProduto';
 import prod from 'data/data.json';
+import {Link} from "react-router-dom";
 
 export default function Produtos() {
     let produtos = prod.home.produtos
@@ -13,7 +14,7 @@ export default function Produtos() {
             <DestaqueProduto />
             {
                 produtos.map(m => {
-                    return <CardProduto key={`card-${produtos.indexOf(m)}`} imgSrc={m.name} displayText={m.displayText} />
+                    return <Link key={`card-${produtos.indexOf(m)}`} to="/seguranca" className="col-12 col-sm-6 col-lg-4 d-flex justify-content-between produto"><CardProduto imgSrc={m.name} displayText={m.displayText} /></Link>
                 })
             }
         </div>

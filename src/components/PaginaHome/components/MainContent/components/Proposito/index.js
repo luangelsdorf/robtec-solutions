@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Proposito() {
     return (
-        <div className="row section justify-content-around" id="purpose-row" key="asd">
+        <div className="row section justify-content-around" id="proposito">
 
             <div className="col-auto d-flex align-items-center">
                 <div>

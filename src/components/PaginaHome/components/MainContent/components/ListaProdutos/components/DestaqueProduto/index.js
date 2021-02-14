@@ -1,12 +1,12 @@
 import React from 'react';
-import img from 'assets/img/cameras_de_vigilancia.svg';
+import vid from 'assets/img/cameras-vigilancia.mp4';
 
 export default function DestaqueProduto() {
     return (
         <div className="row gy-5 banner-produto">
             <div className="col-12 col-sm-6 col-md-4 col-lg-8 d-flex">
                 <div className="position-relative w-100">
-                    <img src={img} className="img-fluid w-100" alt="cameras-de-vigilancia" />
+                    <video src={vid} className="img-fluid w-100" muted autoPlay />
                     <div className="position-absolute bg-white text-center first-product-container p-3">
                         <span className="product-title d-block">Câmeras de Vigilância</span>
                     </div>

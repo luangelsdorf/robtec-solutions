@@ -2,7 +2,7 @@
     "home": {
         "produtos": [
             {
-                "name": "nobreaks",
+                "name": "energia-nobreak",
                 "displayText": "Energia e Nobreak"
             },
             {
@@ -10,19 +10,19 @@
                 "displayText": "Armazenamento"
             },
             {
-                "name": "alarmes",
+                "name": "seguranca-eletronica",
                 "displayText": "Segurança Eletrônica"
             },
             {
-                "name": "wi-fi_empresarial",
+                "name": "wifi-corporativo",
                 "displayText": "Wi-fi Corporativo"
             },
             {
-                "name": "veicular",
+                "name": "camera-veicular",
                 "displayText": "Câmera Veicular"
             },
             {
-                "name": "energia_solar",
+                "name": "energia-solar",
                 "displayText": "Energia Solar"
             },
             {
@@ -34,7 +34,7 @@
                 "displayText": "Conferência"
             },
             {
-                "name": "telefone_ip",
+                "name": "telefone-ip",
                 "displayText": "Telefones IP"
             },
             {
@@ -42,11 +42,11 @@
                 "displayText": "Radiocomunicação"
             },
             {
-                "name": "detector_gas",
+                "name": "detector-gases",
                 "displayText": "Detector de Gases"
             },
             {
-                "name": "sinalizacao_audio_visual",
+                "name": "sinalizacao-audio-visual",
                 "displayText": "Sinalização Áudio Visual"
             }
         ]

@@ -5,14 +5,14 @@ import Form from "components/Form";
 
 export default function MainContentProduto() {
     const sections = dados.seguranca.produtos;
-    let bool = true;
+    let flexOrder = true;
     return (
         <div className="container">
 
             {
                 sections.map(m => {
-                    bool = !bool
-                    return <SectionProduto img={m.img} heading={m.heading} description={m.description} order={Number(bool)}/>
+                    flexOrder = !flexOrder
+                    return <SectionProduto key={`sec-${sections.indexOf(m)}`} img={m.img} heading={m.heading} description={m.description} order={Number(flexOrder)}/>
                 })
             }
 

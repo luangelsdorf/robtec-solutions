@@ -14,8 +14,8 @@ export default function Header() {
                         <div className="nav navbar-nav w-100 justify-content-around">
                             <a href="#banner" className="nav-link d-flex align-items-center">Home</a>
                             <a href="#sobre-nos" className="nav-link d-flex align-items-center">Sobre Nós</a>
+                            <a href="#proposito" className="nav-link d-flex align-items-center">Propósito</a>
                             <a href="#solucoes" className="nav-link d-flex align-items-center">Soluções</a>
-                            <a href="#onde-encontrar" className="nav-link d-flex align-items-center">Onde Encontrar</a>
                             <a href="#fale-conosco" className="nav-link d-flex align-items-center">Fale Conosco</a>
                         </div>
                         <div id="btn-container">
