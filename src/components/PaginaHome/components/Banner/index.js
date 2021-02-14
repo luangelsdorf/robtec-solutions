@@ -5,7 +5,7 @@ export default function Banner() {
     return (
         <div className="container-fluid p-0 position-relative" id="banner">
             <img src={bannerImg} className="banner-img" alt="banner" />
-            <section className="container position-absolute d-flex align-items-center">
+            <section className="container position-absolute d-flex align-items-center banner-section">
                 <div className="banner-text">
                     <span className="bold">Fornecemos as <br /> Melhores Soluções <br /> </span>
                     <button className="btn rob-btn btn-primary border-radius-0" style={{marginRight: 20 + 'px'}}>Nossos Serviços</button>

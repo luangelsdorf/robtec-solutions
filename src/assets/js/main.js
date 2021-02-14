@@ -2,6 +2,10 @@ setTimeout(() => {
     if (window.location.pathname === '/') {
         homePage()
     }
+    if (window.location.pathname === '/seguranca') {
+        productPage()
+    }
+
     let config = {
         childList: true,
     }
@@ -62,7 +66,7 @@ function homePage() {
     function handleIntersection(entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting === true) {
-                let active = document.querySelector(`a[href="#${entry.target.id}"]`)
+                let active = document.querySelector(`a[href="/#${entry.target.id}"]`)
                 document.querySelectorAll('.nav-link').forEach(navLink => {
                     navLink.classList.remove('active')
                 })
@@ -73,5 +77,10 @@ function homePage() {
 }
 
 function productPage() {
-
+    window.scrollTo(0, 0 )
+    let active = document.querySelector('a[href="/#solucoes"]')
+    document.querySelectorAll('.nav-link').forEach(navLink => {
+        navLink.classList.remove('active')
+    })
+    active.classList.add('active')
 }

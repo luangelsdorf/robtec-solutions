@@ -1,5 +1,6 @@
 import React from "react";
 import logo from 'assets/img/robtec.svg';
+import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
     return (
@@ -12,11 +13,11 @@ export default function Header() {
                     </button>
                     <div className="collapse navbar-collapse justify-content-between" id="navBar">
                         <div className="nav navbar-nav w-100 justify-content-around">
-                            <a href="#banner" className="nav-link d-flex align-items-center">Home</a>
-                            <a href="#sobre-nos" className="nav-link d-flex align-items-center">Sobre Nós</a>
-                            <a href="#proposito" className="nav-link d-flex align-items-center">Propósito</a>
-                            <a href="#solucoes" className="nav-link d-flex align-items-center">Soluções</a>
-                            <a href="#fale-conosco" className="nav-link d-flex align-items-center">Fale Conosco</a>
+                            <HashLink to="/#banner" className="nav-link d-flex align-items-center">Home</HashLink>
+                            <HashLink to="/#sobre-nos" className="nav-link d-flex align-items-center">Sobre Nós</HashLink>
+                            <HashLink to="/#proposito" className="nav-link d-flex align-items-center">Propósito</HashLink>
+                            <HashLink to="/#solucoes" className="nav-link d-flex align-items-center">Soluções</HashLink>
+                            <HashLink to="/#fale-conosco" className="nav-link d-flex align-items-center">Fale Conosco</HashLink>
                         </div>
                         <div id="btn-container">
                             <button className="btn rob-btn btn-outline-primary border-radius-0">Solicitar Orçamento</button>

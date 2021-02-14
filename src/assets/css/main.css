@@ -129,12 +129,16 @@ body {
     text-shadow: 0 0 75px rgba(0, 0, 0, 0.15);
 }
 
-section.container.position-absolute {
+.banner-section {
     top: 120px;
     height: 780px;
     left: 0;
     right: 0;
     margin: auto;
+}
+
+#banner-produto-section {
+    height: 400px;
 }
 
 .d-flex.d-xl-block {
