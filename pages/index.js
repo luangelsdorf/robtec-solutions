@@ -6,6 +6,7 @@ import Proposito from "../src/components/home/Proposito";
 import Form from "../src/components/Form";
 import Footer from "../src/components/Footer";
 import Produtos from '../src/components/home/Produtos';
+import data from '../src/data/home.json';
 
 export default function Home(props) {
     return (
@@ -16,7 +17,7 @@ export default function Home(props) {
             <div className="container" id="mainContent">
                 <SobreNos />
                 <Proposito />
-                <Produtos produtos={props.produtos} />
+                <Produtos produtos={props.data} />
                 <Form />
             </div>
             <Footer />
@@ -25,12 +26,9 @@ export default function Home(props) {
 }
 
 export async function getStaticProps() {
-    const res = await fetch('http://localhost:3000/api/resources/home')
-    const produtos = await res.json()
-
     return {
         props: {
-            produtos,
+            data,
         },
     }
 }
