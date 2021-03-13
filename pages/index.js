@@ -9,6 +9,7 @@ import Produtos from '../src/components/home/Produtos';
 import data from '../src/data/home.json';
 
 export default function Home(props) {
+
     return (
         <div className="container-fluid p-0">
             <HeadContent title="Robtec Solutions" />
