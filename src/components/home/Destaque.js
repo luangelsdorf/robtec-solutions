@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function DestaqueProduto() {
+export default function Destaque() {
     return (
         <div className="row gy-5 banner-produto">
             <div className="col-12 col-sm-6 col-md-4 col-lg-8 d-flex">
                 <div className="position-relative w-100">
-                    <video src="/img/cameras-vigilancia.mp4" className="img-fluid w-100" muted autoPlay />
+                    <video src="/img/cameras-vigilancia.mp4" className="img-fluid w-100" muted autoPlay loop />
                     <div className="position-absolute bg-white text-center first-product-container p-3">
                         <span className="product-title d-block">Câmeras de Vigilância</span>
                     </div>

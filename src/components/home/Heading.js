@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function HeadingProduto() {
+export default function Heading() {
     return (
         <div className="d-flex justify-content-center">
             <div>

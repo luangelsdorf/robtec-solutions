@@ -5,7 +5,7 @@ import SobreNos from "../src/components/home/SobreNos";
 import Proposito from "../src/components/home/Proposito";
 import Form from "../src/components/Form";
 import Footer from "../src/components/Footer";
-import Produtos from '../src/components/home/Produtos';
+import Solucoes from '../src/components/home/Solucoes';
 import data from '../src/data/home.json';
 
 export default function Home(props) {
@@ -18,7 +18,7 @@ export default function Home(props) {
             <div className="container" id="mainContent">
                 <SobreNos />
                 <Proposito />
-                <Produtos produtos={props.data} />
+                <Solucoes solucoes={props.data} />
                 <Form />
             </div>
             <Footer />

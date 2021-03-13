@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CardProduto(props) {
+export default function Card(props) {
     return (
         <div className="position-relative w-100">
             <img className="img-fluid w-100" src={`/img/${props.imgSrc}.png`} alt={props.displayText} />
