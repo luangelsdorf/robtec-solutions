@@ -11,8 +11,8 @@ import data from '../src/data/home.json';
 export default function Home(props) {
 
     return (
-        <div className="container-fluid p-0">
-            <HeadContent title="Robtec Solutions" />
+        <main className="container-fluid p-0">
+            <HeadContent title="Robtec Solutions" page="main" />
             <Header />
             <Banner />
             <div className="container" id="mainContent">
@@ -22,7 +22,7 @@ export default function Home(props) {
                 <Form />
             </div>
             <Footer />
-        </div>
+        </main>
     )
 }
 

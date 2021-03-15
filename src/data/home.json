@@ -1,49 +1,104 @@
 [
     {
+        "id": 1,
         "name": "energia-nobreak",
         "displayText": "Energia e Nobreak"
     },
     {
+        "id": 2,
         "name": "armazenamento",
         "displayText": "Armazenamento"
     },
     {
+        "id": 3,
         "name": "seguranca-eletronica",
-        "displayText": "Segurança Eletrônica"
+        "displayText": "Segurança Eletrônica",
+        "relacionados": [
+            {
+                "id": 4,
+                "name": "wifi-corporativo",
+                "displayText": "Wi-fi Corporativo"
+            },
+            {
+                "id": 5,
+                "name": "camera-veicular",
+                "displayText": "Câmera Veicular"
+            },
+            {
+                "id": 6,
+                "name": "energia-solar",
+                "displayText": "Energia Solar"
+            }
+        ],
+        "produtos": [
+            {
+                "id": 1,
+                "img": "central",
+                "heading": "Central de Alarme",
+                "description": "Soluções práticas, seguras e adequadas para todas as necessidades: de soluções econômicas, com as centrais não monitoradas, até integrações com empresas de segurança eletrônica e acompanhamento em tempo real via aplicativo, com as centrais monitoradas via IP."
+            },
+            {
+                "id": 2,
+                "img": "cerca",
+                "heading": "Cerca Elétrica",
+                "description": "O produto ideal para proteção ostensiva de perímetros pequenos, médios ou grandes, integrado ao sistema de alarme IP é possível acompanhar em tempo real através de um aplicativo. Simples de programar e instalar para você manter o local seguro."
+            },
+            {
+                "id": 3,
+                "img": "acessorios",
+                "heading": "Acessórios",
+                "description": "Tenha soluções ainda mais completas com os acessórios para alarmes Intelbras. Perfeitos para que seu projeto seja ampliado, melhorado e controlado com a tecnologia e a qualidade de produtos pensados para otimizar ainda mais a segurança de seu patrimônio."
+            },
+            {
+                "id": 4,
+                "img": "sensor",
+                "heading": "Sensor de Alarme",
+                "description": "Garanta a máxima segurança a seu patrimônio com soluções desenvolvidas para cada tipo de cenário, e tecnologias que variam de acordo com o nível de segurança e aplicação que você precisa."
+            }
+        ]
     },
     {
+        "id": 4,
         "name": "wifi-corporativo",
         "displayText": "Wi-fi Corporativo"
     },
     {
+        "id": 5,
         "name": "camera-veicular",
         "displayText": "Câmera Veicular"
     },
     {
+        "id": 6,
         "name": "energia-solar",
         "displayText": "Energia Solar"
     },
     {
+        "id": 7,
         "name": "gateways",
         "displayText": "Gateways"
     },
     {
+        "id": 8,
         "name": "conferencias",
         "displayText": "Conferência"
     },
     {
+        "id": 9,
         "name": "telefone-ip",
         "displayText": "Telefones IP"
     },
     {
+        "id": 10,
         "name": "radiocomunicacao",
         "displayText": "Radiocomunicação"
     },
     {
+        "id": 11,
         "name": "detector-gases",
         "displayText": "Detector de Gases"
     },
     {
+        "id": 12,
         "name": "sinalizacao-audio-visual",
         "displayText": "Sinalização Áudio Visual"
     }

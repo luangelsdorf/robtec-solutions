@@ -307,6 +307,20 @@ body {
     transition: all 350ms;
 }
 
+.produto:hover .overlay {
+    background: transparent;
+}
+
+.produto:hover .flecha {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.banner-produto:hover .flecha {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .first-product-container {
     top: 50%;
     margin-top: -31px;
@@ -370,6 +384,10 @@ body {
     color: #f7f7f7;
     font-size: 14px;
     font-weight: var(--light);
+}
+
+#relacionados {
+    margin-top: 200px;
 }
 
 /*-- media queries --*/

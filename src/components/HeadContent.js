@@ -21,7 +21,8 @@ export default function HeadContent(props) {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"/>
             <link rel="stylesheet" href="/css/main.css" />
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" />
-            <script src="/js/home.js" />
+            <script src="/js/pages.js" type="module" />
+            <script src="/js/main.js" type="module" />
         </Head>
     )
 }
