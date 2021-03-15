@@ -7,6 +7,7 @@ import Form from "../../src/components/Form";
 import Footer from "../../src/components/Footer";
 import Relacionados from "../../src/components/solucao/Relacionados";
 
+
 export default function Solution({ solutionProps }) {
     let produtos = solutionProps.produtos
     let flexOrder = true;
