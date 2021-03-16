@@ -8,6 +8,7 @@ import Footer from "../src/components/Footer";
 import Solucoes from '../src/components/home/Solucoes';
 import data from '../src/data/home.json';
 
+
 export default function Home(props) {
 
     return (
